@@ -18,16 +18,17 @@
     "Shopping.Client": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": "true",
-      "applicationUrl": "http://localhost:5001"
+      "dotnetRunMessages": "true"
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {},
       "publishAllPorts": true
     }
   }
